@@ -1,6 +1,12 @@
 .navbar{
    display: flex;
 }
+.navbar-nav{
+  margin-left: 600px;
+}
+.nav-link{
+   margin:15px
+}
 .header-top, .text{
    color: rgb(250,190,76);
 }
@@ -9,10 +15,11 @@
    color:white;
    border: none;
    border-radius: 8px;
-   padding: 9px 25px;
+   /* padding: 9px 25px; */
    cursor: pointer;
-   height:80px;
-   width: 200px;
+   height:60px;
+   width: 140px;
+   margin-left: 150px;
 }
 .winter{
    color: rgb(21, 21, 80);
@@ -45,9 +52,13 @@
    width: 60%;
    float: left;
 }
+.icon{
+  font-size:50px;
+  color:rgb(164,180,70);
+  text-decoration: none;
+}
 h5 {
    font-size: 20px;
-  
 }
 
 h6 {
@@ -60,6 +71,6 @@ h6 {
 }
 .footer{
    display: flex;
-   justify-content: center;
+   /* justify-content: center; */
    margin-top: 10px;
 }
